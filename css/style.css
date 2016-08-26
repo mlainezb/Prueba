@@ -1,0 +1,185 @@
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+	}
+body {
+
+}
+
+.arriba {
+background: black;
+position: relative;
+top:0px;
+
+
+}
+.arriba .navbar-menu {
+	background-color: black;
+	border-color:  black;
+
+}
+
+
+.navbar-menu  .navbar-brand img{
+	max-width: 180px;
+	text-align: left;
+
+
+}
+.navbar-nav .navbar-menu a{
+	color:yellow;
+}
+.navbar-nav .navbar-menu a:hover{
+	color:white;
+}
+.interior {
+		padding: 100px 100px;
+	    background:  url('../img/bg.jpg') repeat center center;
+	    background-size: cover;
+	    border-bottom: 1px solid #222;
+}
+
+
+.interior h1.titulos{
+	color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;   
+    margin: 40px auto;
+
+}
+.contenido h1.titulos{
+	color: white;
+    text-transform: uppercase;
+    font-size: 46px;
+    line-height: 62px;
+    text-align: center;   
+    margin: 30px auto;
+
+}
+.contenido{
+		padding: 50px 50px;
+		background:lightcoral;
+}
+.contenido p{
+	color:white;
+	font-size: 17px;
+	text-align: center;
+
+}
+.contenido img{
+	display: block;
+	margin: 0px auto;
+	max-width: 300px;
+	margin-bottom: -61px;
+}
+.interior .boton{
+	text-align: center;
+}
+.interior .bajadas {
+	color: #FFF;
+	text-align: center;
+	font-size: 18px;
+}
+.datos{
+	padding: 50px 50px;
+	background:white;
+}
+.contactos{
+margin-top:15px;
+}
+
+.datos h2.titulos{
+color: royalblue;
+font-size: 25px;
+text-align: center; 
+margin: 30px auto;
+
+}
+.empresas {
+	background: white;
+	display: block;
+	padding: 50px 50px;
+
+}
+.empresas img {
+	width:80px;
+
+}
+
+.hacker{
+	background: white;
+	display: block;
+}
+.hacker h4 {
+	font-size: 25px;
+	color:steelblue;
+}
+.hacker img{
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+width:100%;
+}
+
+.hacker p {
+	color:black;
+	font-size: 16px;
+	text-align: justify;
+}
+footer {
+	padding: 30px 0px;
+	background-color: #222;
+	color: black;
+	padding: 20px 20px;
+}
+footer p {
+	font-family: verdana
+	font-size:15px;
+}
+footer .brand {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 0;
+}
+footer img {
+	float: right;
+		max-width: 180px;
+}
+
+@media only screen and (max-device-width: 768px) {
+
+.contenido img{
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+
+	}
+
+
+@media only screen and (max-device-width: 480px) {
+.contenido h1.titulos{
+
+    font-size: 28px;
+	line-height: 23px;
+}
+.contenido img{
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 10px;
+	}
+.interior h1.titulos{
+	font-size: 35px;
+	line-height: 35px;
+}
+
+hacker{
+	background: white;
+
+}
+}
+
+	}

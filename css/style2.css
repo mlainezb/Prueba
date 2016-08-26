@@ -1,0 +1,106 @@
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+	}
+body {
+
+}
+.interior {
+		padding: 30px 60px;
+	    background:  url('../img/bg.jpg') repeat center center;
+	    background-size: cover;
+	    border-bottom: 1px solid #222;
+
+}
+/* .main .wrapper {
+	background: rgba(0, 0, 0, 0.4);
+	padding: 30px 0px 60px; 
+} */
+
+.interior h1.headline{
+	color: #fff;
+     letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 46px;
+    line-height: 62px;
+
+    text-align: center;
+    
+    margin: 30px auto;
+
+}
+
+.interior .call-to-action{
+	text-align: center;
+}
+
+.interior .call-to-action .btn-started {
+	margin-right: 10px;
+}
+
+.interior .promo-text {
+	color: #FFF;
+	text-align: center;
+
+}
+
+.interior .navbar-menu {
+	background-color: transparent;
+	border-color:  transparent;
+	position: fixed;
+}
+.navbar-menu {
+	position: fixed;
+
+}
+.navbar-menu .navbar-brand{
+	color: #FFFFFF;
+
+}
+	
+.navbar-menu .navbar-brand img{
+	max-width: 180px;
+}
+.navbar-menu a {
+	
+	position: fixed;color: #000;olor:yellow;
+
+}
+.navbar-menu a:hover {
+	color:white;
+
+}
+
+.block {
+	padding: 60px 0px;
+	border-bottom: 1px solid #ccc;
+}
+
+.block h4.headline {
+	text-align: center;
+	display: block;
+	margin: 10px auto;
+
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	line-height: 29px;
+
+	font-weight: bold; 
+}
+
+footer {
+	padding: 30px 0px;
+	background-color: #222;
+	color: #fff;
+}
+
+footer .brand {
+	font-family: 'OpenSans', Arial ,sans-serif;
+	font-size: 17px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 0;
+	margin-top: 10px;
+	margin-left: 0;
+}
